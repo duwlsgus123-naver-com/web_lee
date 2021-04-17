@@ -1,0 +1,236 @@
+ 
+* {
+   box-sizing: border-box;
+   }
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    padding: 10px;
+    background: #ceb95d;
+    }
+    
+
+
+
+
+
+
+#row:after {
+   content: "";
+   display: table;
+   clear: both;
+   
+   }
+
+
+
+#header {
+ 
+   height: 100px;
+   line-height: 60px;
+   padding-left: 10px;
+   border-bottom: 2px solid black;
+   text-align: center;
+   background:white;
+   color: black;
+}
+
+
+.header h1 {
+   font-size: 50px;
+ }
+ 
+
+#main_gn > #banner_h1{
+
+display: inline;
+line-height: 1.5;
+padding: 8px 14px;
+top: 7px;
+color: #fff;
+background-color: #3643b4;
+text-decoration: none;
+border-radius: 5px;
+font-family: "Segoe UI",Arial,sans-serif;
+font-weight: bold;
+float:right;
+}
+
+.topnav {
+   overflow: hidden;
+   background-color: #333;
+ }
+ 
+  
+ .topnav a {
+   float: left;
+   display: block;
+   color: rgb(231, 231, 231);
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+  
+ .topnav a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ .leftcolumn {   
+  float: left;
+  width: 85%;
+}
+ 
+  
+ .rightcolumn {
+   float: left;
+   width: 15%;
+   background-color: #ceb95d;
+   padding-right: 20px;
+ }
+
+ .fakeimg {
+   background-color: #aaa;
+   width: 100%;
+   padding: 20px;
+ }
+ 
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+ }
+ 
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ 
+
+
+ .footer {
+   padding: 10px;
+   border-top: 3px solid black;
+   text-align: center;
+}
+
+
+ /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 800px) {
+   .leftcolumn, .rightcolumn {   
+     width: 100%;
+     padding: 0;
+   }
+ }
+ 
+ /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+ @media screen and (max-width: 400px) {
+   .topnav a {
+     float: none;
+     width: 100%;
+   }
+ }
+
+
+
+
+
+.btn-group .button01 {
+background-color: #bd943d; 
+border: 1px solid rgb(165, 143, 17);
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+cursor: pointer;
+width: 150px;
+display: block;
+max-width: 100%;
+height: auto;
+ 
+ 
+}
+
+.btn-group .button01:not(:last-child) {
+border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button01:hover {
+background-color: #da8404;
+}
+ 
+.columnrecord {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.columnrecord img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.columnrecord img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.rowcut:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+a23 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a23:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #e0b338;
+  color: white;
+}
